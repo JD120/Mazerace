@@ -1,4 +1,4 @@
-MyApp = {
+Mazerace = {
 
     init: function() {
     }
