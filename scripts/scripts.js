@@ -8,6 +8,7 @@ Mazerace = {
   }
   
   MyApp.init(); {
+    
 
   }
   
