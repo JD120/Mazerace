@@ -14,10 +14,10 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 800px;
-    height: 800px;
+    height: 500px;
     border: 1px solid #038d05;
     border-radius: 10px;
-    background-color: green;
+    background-color: white;
     margin: auto;
 }
 
