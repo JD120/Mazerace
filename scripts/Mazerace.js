@@ -21,7 +21,16 @@ let Mazerace = {
         element: circlediv,
       }
     }
-  
   }
+  var player=document.getElementByID('player1') 
+
+    if (myGameArea.key && myGameArea.key == 37) {myGamePiece.speedX = -1; }
+    if (myGameArea.key && myGameArea.key == 39) {myGamePiece.speedX = 1; }
+    if (myGameArea.key && myGameArea.key == 38) {myGamePiece.speedY = -1; }
+    if (myGameArea.key && myGameArea.key == 40) {myGamePiece.speedY = 1; }
+  }
+
+    
+  
   
   Mazerace.init();
