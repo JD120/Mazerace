@@ -13,9 +13,9 @@ body {
     display: flex-start;
     flex-direction: column;
     justify-content: center;
-    width: 800px;
-    height: 500px;
-    border: 1px solid #038d05;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: white;
     margin: auto;
@@ -30,18 +30,7 @@ body {
     margin: auto;
 }
 
-.circles {
-    height: 20px;
-    width: 20px;
-    background-color: green;
-    border: 1px solid green;
-    border-radius: 10px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-.box {
+.player1 {
     height: 15px;
     width: 15px;
     background-color: red;
@@ -49,5 +38,16 @@ body {
     border-radius: 5px;
     position: absolute;
     top: 0px;
+    left: 0px;
+}
+
+.player2 {
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
     left: 0px;
 }
