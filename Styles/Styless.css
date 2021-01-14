@@ -41,7 +41,11 @@ body {
     left: 0px;
 }
 
+<<<<<<< HEAD
 .player2 {
+=======
+.player1 {
+>>>>>>> 76b653c2422c01cc6c77db367d08ac4c4374993e
     height: 15px;
     width: 15px;
     background-color: blue;
@@ -50,4 +54,15 @@ body {
     position: absolute;
     top: 20px;
     left: 0px;
+}
+.player2 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(38, 0, 255);
+    border: 1px solid rgb(55, 0, 255);
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    
 }
