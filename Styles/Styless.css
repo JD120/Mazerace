@@ -41,20 +41,6 @@ body {
     left: 0px;
 }
 
-<<<<<<< HEAD
-.player2 {
-=======
-.player1 {
->>>>>>> 76b653c2422c01cc6c77db367d08ac4c4374993e
-    height: 15px;
-    width: 15px;
-    background-color: blue;
-    border: 1px solid blue;
-    border-radius: 5px;
-    position: absolute;
-    top: 20px;
-    left: 0px;
-}
 .player2 {
     height: 15px;
     width: 15px;

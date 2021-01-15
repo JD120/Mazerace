@@ -1,26 +1,9 @@
 let Mazerace = {
   Start: undefined,
-<<<<<<< HEAD
-  player1: document.getElementsByClassName("player1"),
-  square: [],
-  
-  
-    init: function() {
-      for(let i = 0; i < this.player1.length; i++) {
-      this.player1[i].keypress = function(event) {
-      }
-    }
-  }
-  movement: function () {
-  }
-} 
-  
-  Mazerace.init();
-=======
-  map: document.getElementById("level_map"),
+  map: document.getElementById("maze_race"),
   init: function () {
     for (let i = 1; i < 100; i++) {
-      this.people.push(this.createPlayer1())
+      this.player1.push(this.createPlayer1())
     };
     this.onkeydown ();
 },
@@ -28,6 +11,15 @@ CreatePlayer1: function() {
   let player1div = document.createElement("div");
   player1div.className = "player1";
   this.Container.append(player1div);
+  let player1 = {
+    x_pos: 26,
+    y_pos: 15,
+    x_velocity: 0,
+    y_velocity: 0,
+    radius: 5,
+    color: "red",
+    element: player1div
+  }
 
   return player1;
   },
@@ -48,7 +40,7 @@ CreatePlayer1: function() {
     this.moveUp(this.player1[i]);
     } 
     }else if(event.keyCode == 65) { 
-      //press a  
+      //press a
       for(let i = 0; i < this.player1.length; i++) {
          this.moveLeft(this.player1[i]); 
          }
@@ -65,4 +57,3 @@ CreatePlayer1: function() {
       }
     }
   Mazerace.init()
->>>>>>> 76b653c2422c01cc6c77db367d08ac4c4374993e
